@@ -23,3 +23,9 @@ Otherwise please refer to the building instructions of the iRAM/640. The process
 - make sure to close the 1MB bridge on the bottom side of the PCB
 
 <img src="/pictures/iram1088bridge.jpg" width="600"/>
+
+## License
+
+The expansion and all resources are free to use for personal use.
+
+It is released under the same license as the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). The price for commercial offers may be adjusted to accomodate for the two SRAMs but must not exceed a 20% uplift compared to the permitted iRAM/640 prices. 
