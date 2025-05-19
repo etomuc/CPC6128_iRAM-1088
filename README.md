@@ -1,6 +1,6 @@
 # iRAM/1088 - and internal RAM expansion for Amstrad CPC 6128 (upgrade to 1088K) 
 
-<img src="/pictures/iram1088a.jpg" width="400"/><img src="/pictures/iram1088b.jpg" width="400"/>
+<img src="/pictures/iram1088a.jpg" width="400"/> <img src="/pictures/iram1088b.jpg" width="400"/>
 
 ## Differences to iRAM/640
 
@@ -17,8 +17,9 @@ The hardware differences are minimal:
 - PCB gerber files can be found in the files folder on this project. 
 - CPLD programming files: please download the JED files from the files folder on the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). Those JED files already contain the required logic to address 1088MB. 
 
-Otherwise please refer to the building instructions of the iRAM/640. The process is identical except for one step:
+Otherwise please refer to the building instructions of the iRAM/640. The process is mostly identical except for two steps:
 
+- the second SRAM needs to be soldered on the bottom side of the PCB
 - make sure to close the 1MB bridge on the bottom side of the PCB
 
-<img src="/pictures/iram1088bridge.jpg" width="400"/>
+<img src="/pictures/iram1088bridge.jpg" width="600"/>
