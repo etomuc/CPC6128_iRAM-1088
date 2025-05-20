@@ -13,4 +13,3 @@ jobs:
         with:
           target_date: '1761960600'
           gh_pat: ${{ secrets.GH_PAT }}
-          webhook_url: 'https://www.blue-genie.de?verificationCode=[string]'
