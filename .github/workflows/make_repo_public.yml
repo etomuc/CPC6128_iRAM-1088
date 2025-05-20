@@ -1,0 +1,16 @@
+name: Make Repo Public
+
+on:
+  schedule:
+    - cron: '0 * * * *' # This will run the action every hour
+
+jobs:
+  make-public:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make Repo Public
+        uses: hats-finance/make_repo_public@v4
+        with:
+          target_date: '1761960600'
+          gh_pat: ${{ secrets.GH_PAT }}
+          webhook_url: 'https://###.###/verification?verificationCode=[string]'
