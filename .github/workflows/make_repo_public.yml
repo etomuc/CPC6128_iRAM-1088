@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Make Repo Public
-        uses: hats-finance/make_repo_public@v4
+        uses: hats-finance/make_repo_public@v3
         with:
           target_date: '1761960600'
           gh_pat: ${{ secrets.GH_PAT }}
