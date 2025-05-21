@@ -2,6 +2,12 @@
 
 <img src="/pictures/iram1088a.jpg" width="400"/> <img src="/pictures/iram1088b.jpg" width="400"/>
 
+## License
+
+The expansion and all resources are free to use for personal use.
+
+It is released under the same license as the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). The price for commercial offers may be adjusted to accomodate for the two SRAMs but must not exceed a 20% uplift compared to the permitted iRAM/640 prices. 
+
 ## Differences to iRAM/640
 
 - provides 1088K of total RAM (64K base RAM + 1024 SRAM)
@@ -24,8 +30,10 @@ Otherwise please refer to the building instructions of the iRAM/640. The process
 
 <img src="/pictures/iram1088bridge.jpg" width="600"/>
 
-## License
+### 576K option
 
-The expansion and all resources are free to use for personal use.
+It's possible to only use a single SRAM which will give you a total of 576K RAM. 
 
-It is released under the same license as the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). The price for commercial offers may be adjusted to accomodate for the two SRAMs but must not exceed a 20% uplift compared to the permitted iRAM/640 prices. 
+- solder one SRAM on top of the PCB and leave the spot on thebottom side empty
+- don't close the 1MB bridge on the bottom
+- instead add the 10K (4.7K is also fine) resistor next to it
