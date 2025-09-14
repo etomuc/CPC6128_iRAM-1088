@@ -16,11 +16,12 @@ It is released under the same license as the [iRAM/640 project](https://github.c
 The hardware differences are minimal:
 
 * Use 2 SMD SRAMs AS6C4008 SOP32 (instead of 1 DIP SRAM)
-* One more capacitor 100NF
+* One more capacitor 100nF
 
 ## Building the iRAM/1088
 
-- PCB gerber files can be found in the files folder on this project. 
+- Get PCB from PCBWay here: https://www.pcbway.com/project/shareproject/CPC_iRAM_1088_1MB_internal_RAM_expansion_for_the_Amstrad_CPC_6128_ce7298f2.html
+- or use the PCB gerber files that can be found in the files folder on this project. 
 - CPLD programming files: please download the JED files from the files folder on the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). Those JED files already contain the required logic to address 1088MB. 
 
 Otherwise please refer to the building instructions of the iRAM/640. The process is mostly identical except for two steps:
