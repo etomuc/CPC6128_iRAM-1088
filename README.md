@@ -20,6 +20,18 @@ The hardware differences are minimal:
 
 ## Building the iRAM/1088
 
+### Disclaimer
+
+> [!CAUTION]
+>**USE AT YOUR OWN RISK.**
+>
+>This is a hobby project, I am a hobbyist and no engineer. There is always the risk that the expansion can cause harm to your CPC. 
+>Although I have tested the expansion on several CPCs for many hours with many other expansions and lots of software, there is no guarantee that it will properly work under all circumstances, with all expansions or with all revisions of the CPC 6128.
+>
+> Especially if you are building this for others (commercially or not) make sure to make your own intense tests to guarentee this expansion works as expected before handing over to the recipients.  
+>
+>**USE AT YOUR OWN RISK.** 
+
 - Get PCB from PCBWay here: https://www.pcbway.com/project/shareproject/CPC_iRAM_1088_1MB_internal_RAM_expansion_for_the_Amstrad_CPC_6128_ce7298f2.html
 - or use the PCB gerber files that can be found in the files folder on this project. 
 - CPLD programming files: please download the JED files from the files folder on the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). Those JED files already contain the required logic to address 1088MB. 
