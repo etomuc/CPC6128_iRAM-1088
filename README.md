@@ -15,7 +15,7 @@ It is released under the same license as the [iRAM/640 project](https://github.c
 
 The hardware differences are minimal:
 
-* Use 2 SMD SRAMs AS6C4008 SOP32 (instead of 1 DIP SRAM)
+* Use 2 SMD SRAMs AS6C4008 SOP32 instead of 1 DIP SRAM (buy from trusted sellers only and avoid cheap sources as you can only test them after soldering unless you have special equipment)
 * One more capacitor 100nF
 
 ## Building the iRAM/1088
