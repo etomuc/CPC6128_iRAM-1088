@@ -1,5 +1,8 @@
 # iRAM/1088 - and internal RAM expansion for Amstrad CPC 6128 (upgrade to 1088K) 
 
+> [!TIP]
+> PCBs can be ordered at [PCBWay](https://www.pcbway.com/project/shareproject/CPC_iRAM_1088_1MB_internal_RAM_expansion_for_the_Amstrad_CPC_6128_ce7298f2.html) with a few clicks. Recommended PCB thickness is 1.0mm.
+
 <img src="/pictures/iram1088a.jpg" width="400"/> <img src="/pictures/iram1088b.jpg" width="400"/>
 
 ## License
@@ -33,7 +36,8 @@ The hardware differences are minimal:
 >**USE AT YOUR OWN RISK.** 
 
 - Get PCB from PCBWay here: https://www.pcbway.com/project/shareproject/CPC_iRAM_1088_1MB_internal_RAM_expansion_for_the_Amstrad_CPC_6128_ce7298f2.html
-- or use the PCB gerber files that can be found in the files folder on this project. 
+- or use the PCB gerber files that can be found in the files folder on this project.
+- recommended thickness for the PCB is 1.0mm
 - CPLD programming files: please download the JED files from the files folder on the [iRAM/640 project](https://github.com/etomuc/CPC6128_iRAM-640). Those JED files already contain the required logic to address 1088MB. 
 
 Otherwise please refer to the building instructions of the iRAM/640. The process is mostly identical except for two steps:
